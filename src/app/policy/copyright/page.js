@@ -21,7 +21,7 @@ export default function Copyright() {
                 software utilized on this website and mobile application. The
                 owners of all other trademarks not owned by the Company that
                 appear on this website may or may not be related to, connected
-                to, or supported by Dholera Consultants or its affiliates.
+                to, or supported by Top Deals Dholera or its affiliates.
               </p>
 
               <p>
@@ -29,7 +29,7 @@ export default function Copyright() {
                 information must not be posted, distributed, or reproduced in
                 any way without the owner’s express written authorization.
                 Without limiting the aforementioned, if you think that your work
-                has been duplicated and uploaded on the Dholera Consultants site in a
+                has been duplicated and uploaded on the Top Deals Dholera site in a
                 way that violates your copyright, kindly give the following
                 information to our copyright agent: a description of the
                 copyrighted work that you allege has been violated; a
@@ -41,7 +41,7 @@ export default function Copyright() {
                 copyright owner, or their agent; a declaration from you, given
                 under oath, that the information in your Notice is true and that
                 you are the copyright owner or have the right to speak on their
-                behalf. You can write to the Dholera Consultants Agent at the address
+                behalf. You can write to the Top Deals Dholera Agent at the address
                 listed under the Contact Us section of the website to notify
                 them of copyright infringement allegations.
               </p>

@@ -14,19 +14,19 @@
               </div>
               <div className="mt-10 text-lg space-y-5 pb-8 max-sm:mr-4 max-sm:ml-4">
                 <p>
-                  The terms of the Dholera Consultants Policy (User agreement) apply to
-                  this Privacy statement. When a user registers with Dholera Consultants
+                  The terms of the Top Deals Dholera Policy (User agreement) apply to
+                  this Privacy statement. When a user registers with Top Deals Dholera
                   by completing the Registration form and agreeing to the terms
                   and conditions outlined in the Site Policy, this policy becomes
                   operative.
                 </p>
 
                 <p>
-                  To continue this unique experience, Dholera Consultants may monitor a
+                  To continue this unique experience, Top Deals Dholera may monitor a
                   user’s computer’s IP address and store specific data in the form
                   of cookies on your system. By altering your browser’s settings,
                   a user has the choice of accepting or denying this website’s
-                  cookies. Without the user’s prior consent, Dholera Consultants will not
+                  cookies. Without the user’s prior consent, Top Deals Dholera will not
                   share the personal information that users disclose about
                   themselves to third parties. However, broad information may be
                   disclosed to outside parties.

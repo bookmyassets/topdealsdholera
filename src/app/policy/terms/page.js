@@ -13,9 +13,9 @@ export default function Copyright() {
             </div>
             <div className="mt-10 text-lg space-y-5 pb-8 max-sm:mr-4 max-sm:ml-4">
               <p>
-                Dholera Consultants or one of its affiliates (collectively,
-                “Dholera Consultants”) hosts this website. The terms and conditions of
-                any other agreement you might have with Dholera Consultants are
+                Top Deals Dholera or one of its affiliates (collectively,
+                “Top Deals Dholera”) hosts this website. The terms and conditions of
+                any other agreement you might have with Top Deals Dholera are
                 unaffected by this Agreement in any way. This Agreement and the
                 Site are subject to modification at any moment. If we decide to
                 alter the Agreement, we will update the date and publish a new

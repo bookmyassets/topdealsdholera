@@ -6,19 +6,19 @@ import { motion } from 'framer-motion';
 
 const testimonials = [
   {
-    quote: "Investing in WestWyn County through Dholera Consultants was a smart move. Dholera Smart City has massive growth potential, and this project is right in the middle of it.",
+    quote: "Investing in WestWyn County through Top Deals Dholera was a smart move. Dholera Smart City has massive growth potential, and this project is right in the middle of it.",
     name: " Rajesh Gupta",
     location: "Delhi NCR Investor",
     avatar: "/api/placeholder/80/80"
   },
   {
-    quote: "I wanted early access to Dholera Special Investment Region, and WestWyn County checked all boxes—location, approvals, and guidance from Dholera Consultants.",
+    quote: "I wanted early access to Dholera Special Investment Region, and WestWyn County checked all boxes—location, approvals, and guidance from Top Deals Dholera.",
     name: "Vikas Singh",
     location: "Ahmedabad",
     avatar: "/api/placeholder/80/80"
   },
   {
-    quote: "I trust Dholera Consultants because they only deal in verified plots. WestWyn County in Dholera Smart City gave me both peace of mind and strong future returns",
+    quote: "I trust Top Deals Dholera because they only deal in verified plots. WestWyn County in Dholera Smart City gave me both peace of mind and strong future returns",
     name: "Sumit Patel",
     location: " Surat",
     avatar: "/api/placeholder/80/80"

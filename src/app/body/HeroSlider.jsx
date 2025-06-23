@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import "swiper/css";
 import "swiper/css/pagination";
-import logo from "@/assests/dholeraConsultant.png";
+import logo from "@/assests/topdealsDholera.png";
 
 export default function LandingPage({ img1, mimg1, openForm }) {
   const [isLoading, setIsLoading] = useState(false);
@@ -157,10 +157,10 @@ export default function LandingPage({ img1, mimg1, openForm }) {
             fields: {
               name: formData.fullName,
               phone: formData.phone,
-              source: "Dholera Consultants Google Ads",
+              source: "Top Deals Dholera Google Ads",
             },
-            source: "Dholera Consultants Google Ads",
-            tags: ["Dholera Investment", "Website Lead", "Dholera Consultants"],
+            source: "Top Deals Dholera Google Ads",
+            tags: ["Dholera Investment", "Website Lead", "Top Deals Dholera"],
             recaptchaToken: token,
           }),
         }

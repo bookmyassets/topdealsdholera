@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef } from "react";
 import { useRouter, usePathname } from "next/navigation"; // Add these imports
-import logo from "@/assests/dholeraConsultant.png";
+import logo from "@/assests/topdealsDholera.png";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";

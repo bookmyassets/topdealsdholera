@@ -94,7 +94,7 @@ export default function About() {
                 <span className="text-[#d7b36c]"> Real Estate Developer</span>
               </h2>
               <p className="text-gray-600 text-lg mb-6 ">
-                At Dholera Consultants, we don't just offer land—we offer a vision of the future. 
+                At Top Deals Dholera, we don't just offer land—we offer a vision of the future. 
                 Multiple projects successfully sold in Dholera Smart City. <br />
                 <span className="font-semibold">WestWyn County is yet another step toward your smarter future.</span>
                 <br/>

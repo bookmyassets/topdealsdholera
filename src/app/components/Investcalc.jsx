@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { FaUser, FaPhoneAlt } from "react-icons/fa";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "@/assests/dholeraConsultant.png";
+import logo from "@/assests/topdealsDholera.png";
 import { useRouter, usePathname } from "next/navigation"
 
 export default function InvestCalc({
@@ -13,7 +13,7 @@ export default function InvestCalc({
   buttonName,
   thankYouTitle = "Thank You!",
   thankYouMessage = "Your request has been submitted successfully.",
-  source = "Dholera Consultants google ads",
+  source = "Top Deals Dholera google ads",
   ids
 }) {
   const [isLoading, setIsLoading] = useState(false);
@@ -138,8 +138,8 @@ const onRecaptchaSuccess = async (token) => {
             phone: formData.phone,
             source: source,
           },
-          source: "Dholera Consultants Google Ads",
-          tags: ["Dholera Investment", "Website Lead", "Dholera Consultants"],
+          source: "Top Deals Dholera Google Ads",
+          tags: ["Dholera Investment", "Website Lead", "Top Deals Dholera"],
           recaptchaToken: token,
         }),
       }
