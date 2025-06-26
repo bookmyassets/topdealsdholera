@@ -36,7 +36,7 @@ export default function Navbar() {
       }
     } else {
       // If on different page, navigate to main page with hash
-      router.push(`/more-info${section}`);
+      router.push(`/${section}`);
     }
   };
 
