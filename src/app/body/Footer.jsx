@@ -14,7 +14,7 @@ const Footer = () => {
               About Us
             </h3>
             <p className="text-white mb-4">
-              Book My Assets delivers verified, AUDA-approved projects in Dholera — trusted by 1000+ investors for transparent, expert-led investments.
+            Top Deals Dholera delivers verified, AUDA-approved projects in Dholera — trusted by 1000+ investors for transparent, expert-led investments.
             </p>
             
             {/* Social Media Icons */}
@@ -42,7 +42,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/more-info/policy/copyright"
+                  href="/policy/copyright"
                   className="text-white hover:text-yellow-600 transition flex items-center"
                 >
                   <span className="mr-2">›</span> Copyright Policy
@@ -50,7 +50,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/more-info/policy/terms"
+                  href="/policy/terms"
                   className="text-white hover:text-yellow-600 transition flex items-center"
                 >
                   <span className="mr-2">›</span> Terms of Use
@@ -58,7 +58,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/more-info/policy/privacy"
+                  href="/policy/privacy"
                   className="text-white hover:text-yellow-600 transition flex items-center"
                 >
                   <span className="mr-2">›</span> Privacy Policy
@@ -66,7 +66,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/more-info/policy/refund-and-cancellation"
+                  href="/policy/refund-and-cancellation"
                   className="text-white hover:text-yellow-600 transition flex items-center"
                 >
                   <span className="mr-2">›</span> Refund & Cancellation Policy
