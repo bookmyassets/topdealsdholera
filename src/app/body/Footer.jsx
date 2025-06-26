@@ -96,10 +96,10 @@ const Footer = () => {
                   <Mail size={18} />
                 </div>
                 <a
-                  href="mailto:info@bookmyassets.com"
+                  href="mailto:info@topdealsdholera.com"
                   className="text-white hover:text-yellow-600 transition"
                 >
-                  info@bookmyassets.com
+                  info@topdealsdholera.com
                 </a>
               </li>
             </ul>
