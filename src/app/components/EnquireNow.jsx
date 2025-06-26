@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { FaUser, FaPhoneAlt } from "react-icons/fa";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "@/assests/topdealsDholera.png";
+import logo from "@/assests/topdealsDholera.webp";
 import { useRouter, usePathname } from "next/navigation"
 
 export default function Enquire({

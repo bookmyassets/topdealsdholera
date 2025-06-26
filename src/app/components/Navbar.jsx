@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef } from "react";
 import { useRouter, usePathname } from "next/navigation"; // Add these imports
-import logo from "@/assests/topdealsDholera.png";
+import logo from "@/assests/topdealsDholera.webp";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
@@ -28,7 +28,7 @@ export default function Navbar() {
     setIsMenuOpen(false);
     
     // Check if we're on the main page
-    if (pathname === '/more-info') {
+    if (pathname === '/') {
       // If on main page, just scroll to section
       const element = document.getElementById(section.replace('#', ''));
       if (element) {
@@ -91,8 +91,8 @@ export default function Navbar() {
           >
             <Image
               src={logo}
-              height={60}
-              width={60}
+              height={100}
+              width={100}
               alt="Logo"
               className="cursor-pointer"
             />
