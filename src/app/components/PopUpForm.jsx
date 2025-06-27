@@ -219,7 +219,7 @@ useEffect(() => {
         setTimeout(() => {
           setShowThankYou(false);
           handleClose();
-          router.push(`more-info`);
+          router.push(`/`);
         }, 3000);
       } else {
         throw new Error("Error submitting form");

@@ -165,7 +165,7 @@ const onRecaptchaSuccess = async (token) => {
         const currentPath = pathname || window.location.pathname;
         
         // Push to thank-you route with return URL
-        router.push(`more-info`);
+        router.push(`/`);
       }, 2000);
     } else {
       throw new Error("Error submitting form");

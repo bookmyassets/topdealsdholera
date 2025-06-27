@@ -186,7 +186,7 @@ export default function LandingPage({ img1, mimg1, openForm }) {
           const currentPath = pathname || window.location.pathname;
 
           // Push to thank-you route with return URL
-          router.push(`/more-info/thankyou`);
+          router.push(`/thankyou`);
         }, 2000);
       } else {
         throw new Error("Error submitting form");
