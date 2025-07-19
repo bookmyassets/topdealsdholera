@@ -1,10 +1,10 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
-import Orchid from "@/assests/landing/Orchid.webp";
-import paradise from "@/assests/landing/Paradise.webp";
-import paradise2 from "@/assests/landing/Paradise-2.webp";
-import marina from "@/assests/landing/marinaBay.webp";
-import maple from "@/assests/landing/maple.webp";
+import Orchid from "../assets/landing/Orchid.webp";
+import paradise from "../assets/landing/Paradise.webp";
+import paradise2 from "../assets/landing/Paradise-2.webp";
+import marina from "../assets/landing/marinaBay.webp";
+import maple from "../assets/landing/maple.webp";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 

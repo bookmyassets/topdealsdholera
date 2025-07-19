@@ -1,12 +1,12 @@
 "use client"
-import bgImg from "@/assests/landing/bgIMG.webp"
+import bgImg from "../assets/landing/bgIMG.webp"
 import Image from 'next/image'
-import semiconductor from "@/assests/landing/tata_semiconductor_plant.webp";
-import rail from "@/assests/landing/mono_rail_connectivity.webp";
-import airport from "@/assests/landing/dholera_international_airport.webp";
-import expressway from "@/assests/landing/expressway_landing.webp";
-import solar from "@/assests/landing/renewable_solar.webp";
-import mega from "@/assests/landing/freight.webp";
+import semiconductor from "../assets/landing/tata_semiconductor_plant.webp";
+import rail from "../assets/landing/mono_rail_connectivity.webp";
+import airport from "../assets/landing/dholera_international_airport.webp";
+import expressway from "../assets/landing/expressway_landing.webp";
+import solar from "../assets/landing/renewable_solar.webp";
+import mega from "../assets/landing/freight.webp";
 
 const cardsData = [
   {

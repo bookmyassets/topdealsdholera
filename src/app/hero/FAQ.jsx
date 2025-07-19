@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import bg from "@/assests/pexels2.jpg";
+import bg from "../assets/pexels2.jpg";
 
 const faqs = [
   {

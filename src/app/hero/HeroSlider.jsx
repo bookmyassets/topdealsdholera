@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import "swiper/css";
 import "swiper/css/pagination";
-import logo from "@/assests/topdealsDholera.webp";
+import logo from "../assets/topdealsDholera.webp";
 
 export default function LandingPage({ img1, mimg1, openForm }) {
   const [isLoading, setIsLoading] = useState(false);

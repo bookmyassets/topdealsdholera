@@ -1,13 +1,13 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import govtApprovedProject from "@/assests/landing/govt-approved-project.webp";
-import salesDeed from "@/assests/landing/immediate-sale-deed.webp";
-import afterSales from "@/assests/landing/after-sales.webp";
-import buybackguarantee from "@/assests/landing/buy-back-guarantee.webp";
-import location from "@/assests/landing/location.webp";
-import hidden from "@/assests/landing/hiddenCharges.webp";
+import govtApprovedProject from "../assets/landing/govt-approved-project.webp";
+import salesDeed from "../assets/landing/immediate-sale-deed.webp";
+import afterSales from "../assets/landing/after-sales.webp";
+import buybackguarantee from "../assets/landing/buy-back-guarantee.webp";
+import location from "../assets/landing/location.webp";
+import hidden from "../assets/landing/hiddenCharges.webp";
 import Image from "next/image";
-import projectImage from "@/assests/landing/westwyn-project.webp";
+import projectImage from "../assets/landing/westwyn-project.webp";
 
 const features = [
   {

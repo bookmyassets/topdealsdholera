@@ -1,8 +1,8 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import LandingPage from "./HeroSlider";
-import img1 from "@/assests/landing/heroDesktop.webp";
-import mimg1 from "@/assests/landing/heroMobile.webp";
+import img1 from "../assets/landing/heroDesktop.webp";
+import mimg1 from "../assets/landing/heroMobile.webp";
 import WhyInvest from "./WhyInvest";
 import WhyDholera from "./WhyDholera";
 import Westwyn from "./Westwyn";
