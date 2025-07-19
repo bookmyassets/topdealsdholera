@@ -1,9 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
-import priceBanner from "@/assests/landing/price-cut-banner.webp"
-import priceBannerMobile from "@/assests/landing/Price-cut-mobile-banner.webp"
-import Image from "next/image";
 import BrochureDownload from "../components/BrochureDownload";
 import InvestCalc from "../components/Investcalc";
 
@@ -193,35 +190,6 @@ export default function WhyInvest() {
           `}
         </style>
         <section id="WhyInvest" className=" py-8 bg-white">
-
-  <section>
-        <div className="relative mb-8">
-          {/* Desktop Image */}
-          <div className="hidden lg:block relative">
-            <Image
-              src={priceBanner}
-              alt="Investment Opportunity"
-              className="w-full"
-              priority
-            />
-            <div className="absolute inset-0 bg-black opacity-20"></div>
-            
-          </div>
-
-          {/* Mobile Image */}
-          <div className="block lg:hidden relative h-[300px]"> 
-            <Image
-              src={priceBannerMobile}
-              alt="Investment Opportunity Mobile"
-              fill
-              className="object-contain w-full"
-              priority
-            />
-            <div className="absolute inset-0"></div>
-           
-          </div>
-        </div>
-      </section>
 
           <div className="max-w-7xl mx-auto">
             {/* Investment Returns Section */}

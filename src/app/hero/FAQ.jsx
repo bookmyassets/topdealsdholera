@@ -4,11 +4,6 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import bg from "@/assests/pexels2.jpg";
-import clickBaitm from "@/assests/dholeraClickBaitm.webp";
-import clickBait from "@/assests/dholeraClickBait.webp";
-
-import Link from "next/link";
-
 
 const faqs = [
   {
