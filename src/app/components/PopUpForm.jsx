@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { FaUser, FaPhoneAlt, FaClock, FaMapMarkerAlt } from "react-icons/fa";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import logo from "@/assests/topdealsDholera.webp";
+import logo from "../assets/topdealsDholera.webp";
 import { useRouter, usePathname } from "next/navigation"
 
 export default function PopupForm({
