@@ -7,7 +7,7 @@ import { notFound } from "next/navigation";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const site = "bookmyassets";
+  const site = "top-deals-dholera";
   const post = await getPostBySlug(slug, site);
 
   if (!post) {
