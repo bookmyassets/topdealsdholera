@@ -318,14 +318,14 @@ export default async function Post({ params }) {
         url: "https://www.bookmyassets.com/assets/images/logo.png",
       },
     },
-    url: `https://www.bookmyassets.com/dholera-sir/${post.slug.current}`,
-    mainEntityOfPage: `https://www.bookmyassets.com/dholera-sir/${post.slug.current}`,
+    url: `https://www.bookmyassets.com/dholera-smart-city/${post.slug.current}`,
+    mainEntityOfPage: `https://www.bookmyassets.com/dholera-smart-city/${post.slug.current}`,
     datePublished: post.publishedAt,
     dateModified: post._updatedAt || post.publishedAt,
     description: post.metaDescription,
   };
 
-  const canonicalUrl = `https://www.bookmyassets.com/dholera-sir/${post.slug.current}`;
+  const canonicalUrl = `https://www.bookmyassets.com/dholera-smart-city/${post.slug.current}`;
 
   return (
     <div className="bg-gray-50 min-h-screen">
@@ -363,64 +363,6 @@ export default async function Post({ params }) {
             {/* Content */}
             <div className="prose prose-lg max-w-none">
               <PortableText value={post.body} components={components} />
-            </div>
-
-            {/* Tags Section */}
-            <div className="mt-12 pt-6 border-t border-gray-200">
-              <h4 className="text-sm uppercase tracking-wider font-semibold text-gray-500 mb-4">
-                Related Topics
-              </h4>
-              <div className="flex flex-wrap gap-2">
-                <a
-                  href="https://www.bookmyassets.com/blogs/why-invest-in-dholera-india-first-greenfield-smart-city"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full hover:bg-gray-200 transition-colors"
-                >
-                  Greenfield City Project
-                </a>
-                <a
-                  href="https://www.bookmyassets.com/blogs/how-tata-semiconductor-fab-dholera-impact-plot-prices"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full hover:bg-gray-200 transition-colors"
-                >
-                  TATA Semiconductor Fab Dholera
-                </a>
-                <a
-                  href="https://www.bookmyassets.com/blogs/dholera-solar-power-project"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full hover:bg-gray-200 transition-colors"
-                >
-                  Solar Power Plant
-                </a>
-                <a
-                  href="https://www.bookmyassets.com/projects/dholera/westwyn-county-wc"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full hover:bg-gray-200 transition-colors"
-                >
-                  WestWyn County by BookMyAssets
-                </a>
-              </div>
-            </div>
-
-            {/* Call to Action */}
-            <div className="mt-16 bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-xl shadow-sm">
-              <h3 className="text-2xl font-bold text-gray-800 mb-3">
-                Want to learn more?
-              </h3>
-              <p className="text-gray-600 mb-6">
-                Discover more investment opportunities with BookMyAssets™
-                today.
-              </p>
-              <Link
-                href="/contact"
-                className="inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors shadow-md"
-              >
-                Get in Touch
-              </Link>
             </div>
           </div>
         </div>

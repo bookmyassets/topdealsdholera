@@ -5,7 +5,7 @@ import { urlFor } from "@/sanity/lib/image";
 export default function BlogCard({ post }) {
   return (
     <Link
-      href={post.slug?.current ? `/dholera-sir/${post.slug.current}` : "#"}
+      href={post.slug?.current ? `/dholera-smart-city/${post.slug.current}` : "#"}
       className="group"
     >
       <div className="bg-white rounded-xl shadow-md overflow-hidden h-full hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-1 border border-gray-200">

@@ -34,7 +34,7 @@ export default async function BlogsPage() {
     console.error("Error fetching updates:", error);
   }
 
-  const canonicalUrl = `https://www.bookmyassets.com/dholera-sir`;
+  const canonicalUrl = `https://www.bookmyassets.com/dholera-smart-city`;
 
   return (
     <>
