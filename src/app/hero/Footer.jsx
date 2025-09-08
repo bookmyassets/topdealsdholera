@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import { MapPin, Mail, Phone, Facebook, Twitter, Instagram, Linkedin, ArrowUp, Building, Users, Award, Shield } from "lucide-react";
+import { MapPin, Mail, Phone, Facebook, Twitter, Instagram, Linkedin, ArrowUp, Building, Users, Award, Shield, Youtube } from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -97,15 +97,7 @@ const Footer = () => {
                   <h4 className="text-white font-semibold mb-3">Follow Us</h4>
                   <div className="flex space-x-3">
                     <a 
-                      href="https://www.facebook.com/share/1AXGEEX1M8/" 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="group bg-gray-800 hover:bg-blue-600 p-3 rounded-full transition-all duration-300 transform hover:scale-110"
-                    >
-                      <Facebook size={20} className="text-gray-400 group-hover:text-white" />
-                    </a>
-                    <a 
-                      href="https://x.com/BookMyAssets" 
+                      href="https://x.com/topdealsdh39259" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group bg-gray-800 hover:bg-sky-500 p-3 rounded-full transition-all duration-300 transform hover:scale-110"
@@ -113,7 +105,7 @@ const Footer = () => {
                       <Twitter size={20} className="text-gray-400 group-hover:text-white" />
                     </a>
                     <a 
-                      href="https://www.instagram.com/bookmyassets/" 
+                      href="https://www.instagram.com/topdeals.dholera/" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group bg-gray-800 hover:bg-pink-600 p-3 rounded-full transition-all duration-300 transform hover:scale-110"
@@ -121,12 +113,12 @@ const Footer = () => {
                       <Instagram size={20} className="text-gray-400 group-hover:text-white" />
                     </a>
                     <a 
-                      href="https://www.linkedin.com/company/bookmyassetss" 
+                      href="https://www.youtube.com/@Topdealsdholera" 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group bg-gray-800 hover:bg-blue-700 p-3 rounded-full transition-all duration-300 transform hover:scale-110"
                     >
-                      <Linkedin size={20} className="text-gray-400 group-hover:text-white" />
+                      <Youtube size={20} className="text-gray-400 group-hover:text-white" />
                     </a>
                   </div>
                 </div>

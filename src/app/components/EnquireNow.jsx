@@ -13,7 +13,7 @@ export default function Enquire({
   buttonName,
   thankYouTitle = "Thank You!",
   thankYouMessage = "Your request has been submitted successfully.",
-  source = "Top Deals Dholera google ads",
+  source = "Top Deals Dholera",
   ids
 }) {
   const [isLoading, setIsLoading] = useState(false);
