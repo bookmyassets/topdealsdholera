@@ -157,14 +157,14 @@ export default function Navbar() {
                         Book A Free Site Visit
                       </button>
                       <a
-                        href="tel:+918130371647"
+                        href="tel:+919871786251"
                         className="block px-4 py-2 text-gray-800 hover:bg-gray-100 transition-colors font-medium"
                         id="call-now"
                       >
                         Call Now
                       </a>
                       <a
-                        href="https://wa.me/918130371647"
+                        href="https://wa.me/919871786251"
                         target="_blank"
                         rel="noopener noreferrer"
                         id="whatsapp-git"
@@ -222,13 +222,13 @@ export default function Navbar() {
                         Enquire Now
                       </button>
                       <a
-                        href="tel:+918130371647"
+                        href="tel:+919871786251"
                         className="block px-4 py-2 text-gray-800 hover:bg-gray-100 transition-colors font-medium"
                       >
                         Call Now
                       </a>
                       <a
-                        href="https://wa.me/918130371647"
+                        href="https://wa.me/919871786251"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block px-4 py-2 text-gray-800 hover:bg-gray-100 transition-colors font-medium"
