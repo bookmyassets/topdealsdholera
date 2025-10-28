@@ -1,6 +1,6 @@
 import { getUpdates, projectInfo } from "@/sanity/lib/api";
-import hero from "../assets/blogHero.webp";
-import herom from "../assets/dholeraSIRm.webp";
+import hero from "@/app/assets/blogHero.webp";
+import herom from "@/app/assets/dholeraSIRm.webp";
 import Image from "next/image";
 import BlogCard from "./BlogCard";
 import TrendingBlogItem from "./TrendingBlog";

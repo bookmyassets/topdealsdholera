@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import heroD from "../assets/projectsHero.webp";
-import heroM from "../assets/projectsMhero.webp";
+import heroD from "@/app/assets/projectsHero.webp";
+import heroM from "@/app/assets/projectsMhero.webp";
 import { getblogs } from "@/sanity/lib/api";
 import { urlFor } from "@/sanity/lib/image";
 
