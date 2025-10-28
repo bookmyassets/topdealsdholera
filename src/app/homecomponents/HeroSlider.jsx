@@ -120,15 +120,6 @@ const ThankYouScreen = () => (
 );
 
 
-  const [isDownload, setIsDownload] = useState(false);
-
-  const openBrochure = () => {
-    setIsDownload(true);
-  }
-
-  const closeBrochure = () => {
-    setIsDownload(false);
-  }
 
 // Constants
 const FEATURES = [
@@ -175,6 +166,16 @@ export default function LandingPage({ img1, mimg1, openForm }) {
   const [showThankYou, setShowThankYou] = useState(false);
   const recaptchaRef = useRef(null);
   const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+
+  const [isDownload, setIsDownload] = useState(false);
+
+  const openBrochure = () => {
+    setIsDownload(true);
+  }
+
+  const closeBrochure = () => {
+    setIsDownload(false);
+  }
 
   // Setup popup triggers
   useEffect(() => {
