@@ -9,11 +9,11 @@ import EndSection from "./EndSection";
 import PopupForm from "../components/PopUpForm";
 import DynamicScrollNavigation from "../components/Sidebar";
 
-import WestWyn from "./homecomponents/WestWyn";
+import WestWyn from "./WestWyn";
 import CommonForm from "../components/CommonForm";
-import LatestUpdates from "./homecomponents/FeaturedBlogs";
-import VideoSlider from "./homecomponents/YouTube";
-import FAQSection from "./homecomponents/FAQs";
+import LatestUpdates from "./FeaturedBlogs";
+import VideoSlider from "./YouTube";
+import FAQSection from "./FAQs";
 import AboutDholera from "./AboutDholera";
 
 // Define your sections with their corresponding IDs
