@@ -8,12 +8,12 @@ import TestimonialPagination from "./Testimonials";
 import EndSection from "./EndSection";
 import PopupForm from "../components/PopUpForm";
 import DynamicScrollNavigation from "../components/Sidebar";
-import AboutDholera from "../homecomponents/aboutDholera";
-import WestWyn from "../homecomponents/WestWyn";
+import AboutDholera from "@/app/homecomponents/aboutDholera";
+import WestWyn from "@/app/homecomponents/WestWyn";
 import CommonForm from "../components/CommonForm";
-import LatestUpdates from "../homecomponents/FeaturedBlogs";
-import VideoSlider from "../homecomponents/YouTube";
-import FAQSection from "../homecomponents/FAQs";
+import LatestUpdates from "@/app/homecomponents/FeaturedBlogs";
+import VideoSlider from "@/app/homecomponents/YouTube";
+import FAQSection from "@/app/homecomponents/FAQs";
 
 // Define your sections with their corresponding IDs
 const pageSections = [
