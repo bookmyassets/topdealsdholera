@@ -357,11 +357,6 @@ export default function LandingPage({ img1, mimg1, openForm }) {
     }
   };
 
-  const openBrochure = useCallback(() => {
-    // TODO: Implement actual brochure download
-    alert("Brochure download functionality");
-  }, []);
-
   const handleFormPopupToggle = useCallback(() => {
     setShowFormPopup((prev) => !prev);
   }, []);
