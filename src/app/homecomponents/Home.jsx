@@ -8,23 +8,24 @@ import TestimonialPagination from "./Testimonials";
 import EndSection from "./EndSection";
 import PopupForm from "../components/PopUpForm";
 import DynamicScrollNavigation from "../components/Sidebar";
-import AboutDholera from "@/app/homecomponents/aboutDholera";
-import WestWyn from "@/app/homecomponents/WestWyn";
+
+import WestWyn from "./homecomponents/WestWyn";
 import CommonForm from "../components/CommonForm";
-import LatestUpdates from "@/app/homecomponents/FeaturedBlogs";
-import VideoSlider from "@/app/homecomponents/YouTube";
-import FAQSection from "@/app/homecomponents/FAQs";
+import LatestUpdates from "./homecomponents/FeaturedBlogs";
+import VideoSlider from "./homecomponents/YouTube";
+import FAQSection from "./homecomponents/FAQs";
+import AboutDholera from "./AboutDholera";
 
 // Define your sections with their corresponding IDs
 const pageSections = [
-  { id: 'hero', label: 'Home' },
-  { id: 'about', label: 'About' },
-  { id: 'westwyn-estate', label: 'Westwyn Estate' },
-  { id: 'form', label: 'Form' },
-  { id: 'why-dholera', label: 'Latest Updates' },
-  { id: 'videos', label: 'Dholera Drone Shots' },
-  { id: 'testimonials', label: 'Testimonials' },
-  { id: 'faq', label: 'FAQ' },
+  { id: "hero", label: "Home" },
+  { id: "about", label: "About" },
+  { id: "westwyn-estate", label: "Westwyn Estate" },
+  { id: "form", label: "Form" },
+  { id: "why-dholera", label: "Latest Updates" },
+  { id: "videos", label: "Dholera Drone Shots" },
+  { id: "testimonials", label: "Testimonials" },
+  { id: "faq", label: "FAQ" },
 ];
 
 export default function Home() {
@@ -39,47 +40,46 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="pt-16"> {/* Add padding to account for fixed nav */}
+      <div className="pt-16">
+        {" "}
+        {/* Add padding to account for fixed nav */}
         <div>
           <section id="hero">
-            <LandingPage
-              img1={img1}
-              mimg1={mimg1}
-            />
+            <LandingPage img1={img1} mimg1={mimg1} />
           </section>
-          
+
           <section id="about">
             <AboutDholera />
           </section>
-          
+
           <section id="westwyn-estate">
-            <WestWyn/>
+            <WestWyn />
           </section>
-          
+
           <section id="form">
             <CommonForm title="Book A Free Site Visit" />
           </section>
-          
+
           <section id="why-dholera">
-           <LatestUpdates/>
+            <LatestUpdates />
           </section>
 
           <section id="videos">
-            <VideoSlider/>
+            <VideoSlider />
           </section>
-          
+
           <section id="testimonials">
             <TestimonialPagination />
           </section>
-          
+
           <section id="faq">
-            <FAQSection/>
+            <FAQSection />
           </section>
-          
+
           <EndSection />
         </div>
       </div>
-      
+
       {showForm && (
         <PopupForm
           onClose={() => setShowForm(false)}
