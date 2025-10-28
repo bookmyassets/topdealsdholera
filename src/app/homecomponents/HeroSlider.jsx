@@ -119,6 +119,17 @@ const ThankYouScreen = () => (
   </motion.div>
 );
 
+
+  const [isDownload, setIsDownload] = useState(false);
+
+  const openBrochure = () => {
+    setIsDownload(true);
+  }
+
+  const closeBrochure = () => {
+    setIsDownload(false);
+  }
+
 // Constants
 const FEATURES = [
   { icon: Home, title: "Land Size", value: "150 Sq.Yd.", subtitle: null },
@@ -294,7 +305,7 @@ export default function LandingPage({ img1, mimg1, openForm }) {
           const currentPath = pathname || window.location.pathname;
 
           // Push to thank-you route with return URL
-          router.push(`/more-info/thankyou`);
+          router.push(`/`);
         }, 2000);
       } else {
         throw new Error("Error submitting form");
@@ -572,17 +583,22 @@ export default function LandingPage({ img1, mimg1, openForm }) {
                     delay={0.5}
                   />
 
+                  <div className="flex justify-center">
+                    <div ref={recaptchaRef}></div>
+                  </div>
+
                   <motion.button
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.6 }}
+                    transition={{ delay: 1.0 }}
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    type="submit"
+                    type="button"
+                    onClick={handleSubmit}
                     disabled={isLoading}
-                    className="w-full py-3 px-6 bg-gradient-to-r from-yellow-500 to-yellow-600 text-black rounded-lg hover:from-yellow-600 hover:to-yellow-700 transition-all shadow-lg hover:shadow-yellow-500/20 font-semibold flex items-center justify-center disabled:opacity-70 disabled:cursor-not-allowed"
+                    className="w-full py-3 px-6 bg-gradient-to-r from-yellow-500 to-yellow-600 text-white rounded-lg hover:from-yellow-600 hover:to-yellow-700 transition-all shadow-lg hover:shadow-yellow-500/20 font-semibold disabled:opacity-70 disabled:cursor-not-allowed"
                   >
-                    {isLoading ? "Submitting..." : "Talk To Investment Advisor"}
+                    {isLoading ? "Submitting..." : "Claim Offer"}
                   </motion.button>
                 </form>
               )}
@@ -590,6 +606,18 @@ export default function LandingPage({ img1, mimg1, openForm }) {
           </div>
         )}
       </AnimatePresence>
+    <AnimatePresence>
+        {isDownload && (
+          <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-[1000]">
+            <BrochureDownload
+              title="Get the Dholera Brochure"
+              buttonName="Download Brochure"
+              onClose={() => closeBrochure()}
+            />
+          </div>
+        )}
+      </AnimatePresence>
     </div>
+    
   );
 }
