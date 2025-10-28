@@ -3,25 +3,26 @@ import React, { useState, useEffect } from "react";
 import LandingPage from "./HeroSlider";
 import img1 from "../assets/landing/heroDesktop.webp";
 import mimg1 from "../assets/landing/heroMobile.webp";
-import WhyInvest from "./WhyInvest";
-import WhyDholera from "./WhyDholera";
-import Westwyn from "./Westwyn";
-import FAQSection from "./FAQ";
-import About from "./About";
+
 import TestimonialPagination from "./Testimonials";
-import Ammenties from "./Ammenties";
 import EndSection from "./EndSection";
 import PopupForm from "../components/PopUpForm";
 import DynamicScrollNavigation from "../components/Sidebar";
+import AboutDholera from "../homecomponents/aboutDholera";
+import WestWyn from "../homecomponents/WestWyn";
+import CommonForm from "../components/CommonForm";
+import LatestUpdates from "../homecomponents/FeaturedBlogs";
+import VideoSlider from "../homecomponents/YouTube";
+import FAQSection from "../homecomponents/FAQs";
 
 // Define your sections with their corresponding IDs
 const pageSections = [
   { id: 'hero', label: 'Home' },
   { id: 'about', label: 'About' },
-  { id: 'westwyn-county', label: 'Westwyn County' },
-  { id: 'why-invest', label: 'Why Invest' },
-  { id: 'why-dholera', label: 'Why Dholera' },
-  { id: 'amenities', label: 'Amenities' },
+  { id: 'westwyn-estate', label: 'Westwyn Estate' },
+  { id: 'form', label: 'Form' },
+  { id: 'why-dholera', label: 'Latest Updates' },
+  { id: 'videos', label: 'Dholera Drone Shots' },
   { id: 'testimonials', label: 'Testimonials' },
   { id: 'faq', label: 'FAQ' },
 ];
@@ -44,28 +45,27 @@ export default function Home() {
             <LandingPage
               img1={img1}
               mimg1={mimg1}
-              openForm={() => setShowForm(true)}
             />
           </section>
           
           <section id="about">
-            <About />
+            <AboutDholera />
           </section>
           
-          <section id="westwyn-county">
-            <Westwyn />
+          <section id="westwyn-estate">
+            <WestWyn/>
           </section>
           
-          <section id="why-invest">
-            <WhyInvest />
+          <section id="form">
+            <CommonForm title="Book A Free Site Visit" />
           </section>
           
           <section id="why-dholera">
-            <WhyDholera />
+           <LatestUpdates/>
           </section>
-          
-          <section>
-            <Ammenties />
+
+          <section id="videos">
+            <VideoSlider/>
           </section>
           
           <section id="testimonials">
@@ -73,7 +73,7 @@ export default function Home() {
           </section>
           
           <section id="faq">
-            <FAQSection />
+            <FAQSection/>
           </section>
           
           <EndSection />

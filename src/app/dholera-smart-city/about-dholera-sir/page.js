@@ -18,7 +18,7 @@ export default async function BlogsPage() {
 
   const safePosts = posts.map((post) => ({
     ...post,
-    author: post.author || "BookMyAssets",
+    author: post.author || "TopDealsDholera",
     mainImage: post.mainImage || null,
     slug: post.slug?.current
       ? { current: post.slug.current }
@@ -34,7 +34,7 @@ export default async function BlogsPage() {
     console.error("Error fetching updates:", error);
   }
 
-  const canonicalUrl = `https://www.bookmyassets.com/dholera-smart-city`;
+  const canonicalUrl = `https://www.TopDealsDholera.com/dholera-smart-city/about-dholera-sir`;
 
   return (
     <>
@@ -42,7 +42,7 @@ export default async function BlogsPage() {
       <div className="bg-black text-white">
         <meta
           name="description"
-          content="Explore Dholera SIR—India’s premier greenfield smart city. Get the latest infrastructure, connectivity, smart-tech & investment insights with BookMyAssets."
+          content="Explore Dholera SIR—India’s premier greenfield smart city. Get the latest infrastructure, connectivity, smart-tech & investment insights with TopDealsDholera."
         />
         <div className="px-4 relative">
           <div className="relative h-[400px] w-full rounded-xl overflow-hidden">

@@ -201,7 +201,7 @@ export default async function Blogs() {
                           🔒 Sold Out
                         </button>
                       ) : (
-                        <Link href={`/projects/${project.slug?.current}`} className="flex-1">
+                        <Link href={`/dholera-plots/${project.slug?.current}`} className="flex-1">
                           <button className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg">
                             View Details
                             <svg className="w-4 h-4 ml-2 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">

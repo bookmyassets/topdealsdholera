@@ -5,6 +5,7 @@ import "./globals.css";
 import Footer from "./hero/Footer";
 import FloatingButtons from "./components/whatsapp";
 import Script from "next/script";
+import Header from "./components/Header";
 
 export default function RootLayout({ children }) {
   return (
@@ -24,7 +25,7 @@ export default function RootLayout({ children }) {
             font-family: 'Inter', sans-serif !important;
           }
         `}</style>
-        <Navbar />
+        <Header />
         {children}
         <Footer />
         <FloatingButtons />

@@ -304,28 +304,28 @@ export default async function Post({ params }) {
     image: post.mainImage?.url,
     author: {
       "@type": "Organization",
-      name: "BookMyAssets",
+      name: "TopDealsDholera",
     },
-    editor: "BookMyAssets Editorial Team",
+    editor: "TopDealsDholera Editorial Team",
     genre: post.genre || "General",
     keywords: post.keywords?.join(", "),
     wordcount: post.wordCount?.toString() || "1000",
     publisher: {
       "@type": "Organization",
-      name: "BookMyAssets",
+      name: "TopDealsDholera",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.bookmyassets.com/assets/images/logo.png",
+        url: "https://www.TopDealsDholera.com/assets/images/logo.png",
       },
     },
-    url: `https://www.bookmyassets.com/dholera-sir/${post.slug.current}`,
-    mainEntityOfPage: `https://www.bookmyassets.com/dholera-sir/${post.slug.current}`,
+    url: `https://www.TopDealsDholera.com/dholera-plots/${post.slug.current}`,
+    mainEntityOfPage: `https://www.TopDealsDholera.com/dholera-plots/${post.slug.current}`,
     datePublished: post.publishedAt,
     dateModified: post._updatedAt || post.publishedAt,
     description: post.metaDescription,
   };
 
-  const canonicalUrl = `https://www.bookmyassets.com/dholera-sir/${post.slug.current}`;
+  const canonicalUrl = `https://www.TopDealsDholera.com/dholera-sir/${post.slug.current}`;
 
   return (
     <div className="bg-gray-50 min-h-screen">
